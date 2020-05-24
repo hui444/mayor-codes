@@ -1,0 +1,52 @@
+.NUSPlanner-Homepage__menu-btn {
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  
+  .NUSPlanner-Homepage__menu-btn span {
+    display: block;
+    width: 3rem;
+    height: 2.5px;
+    background: white;
+  }
+  
+  .NUSPlanner-Homepage__title {
+    color: white;
+  }
+  
+  .NUSPlanner-Homepage__title a {
+    text-decoration: none;
+    color: salmon;
+  }
+  
+  .NUS {
+    color: #fc585a;
+  }
+
+  .Planner {
+      color: #043370;
+  }
+  .NUSPlanner-Homepage__header-nav {
+    display: none;
+  }
+  
+  .NUSPlanner-Homepage__drawer-nav {
+    height: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .NUSPlanner-Homepage__menu-btn {
+      display: none;
+    }
+  
+    .NUSPlanner-Homepage__header-nav {
+      display: block;
+    }
+  }
