@@ -41,6 +41,10 @@
     height: 100%;
   }
   
+  body {
+    background-color: white;
+  }
+  
   @media (min-width: 768px) {
     .NUSPlanner-Homepage__menu-btn {
       display: none;

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './Homepage.css';
+import HeaderButton from './HeaderButton';
 import NUSPlannerHeader from './NUSPlannerHeader';
+import './Homepage.css';
 
 const Homepage = props => {
     return(
@@ -13,6 +14,9 @@ const Homepage = props => {
                     <span className="Planner">Planner</span>
                 </Link>
             </h1>
+            <nav className="main-navigation__header-nav">
+                <HeaderButton />
+            </nav>
         </NUSPlannerHeader>
     );
 };
