@@ -3,7 +3,12 @@
     flex-wrap: wrap;
 }
 
-.column {
+.left {
+    flex: 50%;
+    max-width: 100%;
+}
+
+.right {
     flex: 50%;
     max-width: 100%;
 }

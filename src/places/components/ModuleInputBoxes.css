@@ -1,0 +1,17 @@
+.module-header {
+    padding-left: 2rem;
+    text-align: left;
+    
+}
+
+.input-container {
+    margin-left: 15%;
+}
+
+.input-module {
+    height: 2.5rem;
+    width: 11rem;
+    font-size: 13px;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+}
