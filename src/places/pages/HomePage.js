@@ -1,7 +1,7 @@
 import React from 'react';
 
-import CreateCard from '../components/Create';
-import BookmarkCard from '../components/Bookmark';
+import CreateCard from '../components/CreateCard';
+import BookmarkCard from '../components/BookmarkCard';
 
 import './HomePage.css'
 

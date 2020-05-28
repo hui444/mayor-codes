@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './Create.css';
+import './CreateCard.css';
 
-const Create = () => {
+const CreateCard = () => {
     return (
         <li className="create-item">
             <div className="create-flipcard">
@@ -24,4 +24,4 @@ const Create = () => {
     );
 };
 
-export default Create;
+export default CreateCard;

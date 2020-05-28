@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './Bookmark.css';
+import './BookmarkCard.css';
 
-const Bookmark = () => {
+const BookmarkCard = () => {
     return (
         <li className="bookmark-item">
             <div className="bookmark-flipcard">
@@ -24,4 +24,4 @@ const Bookmark = () => {
     );
 };
 
-export default Bookmark;
+export default BookmarkCard;
