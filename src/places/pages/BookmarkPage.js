@@ -1,16 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import BookmarkTable from '../components/BookmarkTable';
+import BookmarkTable from "../components/BookmarkTable";
 
-import './BookmarkPage.css'
+import "./BookmarkPage.css";
 
 const BookmarkPage = () => {
-    return (
-        <React.Fragment>
-        <h2>This is the BookmarkTable and it works!</h2>
-        <BookmarkTable />
-        </React.Fragment>
-    );
+  return <BookmarkTable />;
 };
 
 export default BookmarkPage;

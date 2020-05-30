@@ -9,8 +9,8 @@ import {
 import HomePage from "./places/pages/HomePage";
 import CreatePage from "./places/pages/CreatePage";
 import BookmarkPage from "./places/pages/BookmarkPage";
-import NUSPlannerHeader from "./shared/components/Homepage/NUSPlannerHeader";
-import NavButton from "./shared/components/Homepage/NavButton";
+import NUSPlannerHeader from "./shared/components/NUSPlannerHeader";
+import NavButton from "./shared/components/NavButton";
 
 const App = () => {
   return (
