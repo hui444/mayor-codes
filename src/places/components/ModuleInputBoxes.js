@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./ModuleInputBoxes.css";
+import InputBox from "../../shared/components/InputBox";
 
 const ModuleInputBoxes = (props) => {
   const number = props.num;
@@ -14,12 +15,11 @@ const ModuleInputBoxes = (props) => {
     content.map((a) => {
       return (
         <div className="input-container" key={a + 10}>
-          <input
-            className="input-module"
+          <InputBox
+            element="input"
+            id={"mod" + a}
             type="text"
             placeholder={"Module " + a}
-            name={"Mod" + a}
-            key={a}
           />
         </div>
       );

@@ -8,7 +8,7 @@ import NumSelector from "../components/NumSelector";
 const CreatePage = () => {
   return (
     <React.Fragment>
-      <form action="/">
+      <form>
         <div className="left">
           <h2 className="module-header">Modules :</h2>
           <div className="selector">
@@ -20,7 +20,7 @@ const CreatePage = () => {
             <PreferencesQ />
           </div>
           <div className="bottom">
-            <NavButton link="/create" text="CREATE" />
+            <NavButton type="submit">CREATE</NavButton>
           </div>
         </div>
       </form>

@@ -23,14 +23,14 @@ const App = () => {
           </Route>
           <Route path="/create" exact>
             <NUSPlannerHeader>
-              <NavButton link="/" text="HOME" />
+              <NavButton to="/">HOME</NavButton>
             </NUSPlannerHeader>
             <CreatePage />
             <style>{"body { background-color : #dae3f2; }"}</style>
           </Route>
           <Route path="/bookmark" exact>
             <NUSPlannerHeader>
-              <NavButton link="/" text="HOME" />
+              <NavButton to="/">HOME</NavButton>
             </NUSPlannerHeader>
             <BookmarkPage />
             <style>{"body { background-color : #e2f0da; }"}</style>
