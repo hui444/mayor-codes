@@ -1,18 +1,14 @@
 .row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.left {
-    flex: 50%;
-    max-width: 100%;
-}
-
-.right {
-    flex: 50%;
-    max-width: 100%;
+.left-home,
+.right-home {
+  flex: 50%;
+  max-width: 100%;
 }
 
 .homeMain {
-    margin-top: 16%;
+  margin-top: 16%;
 }

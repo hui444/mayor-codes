@@ -20,6 +20,7 @@
   font-size: 13px;
   margin-top: 1rem;
   padding: 0 10px;
+  text-transform: uppercase;
 }
 
 .form-control input:focus,
@@ -27,6 +28,7 @@
   outline: none;
   background: #ebebeb;
   border-color: #510077;
+  text-transform: uppercase;
 }
 
 .form-control--invalid label,

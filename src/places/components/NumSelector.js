@@ -11,7 +11,7 @@ const NumSelector = () => {
 
   return (
     <React.Fragment>
-      <label htmlFor="num-modules">Number of Modules: </label>
+      <label>Number of Modules: </label>
       <select id="num-modules" name="num-modules" onChange={onChange}>
         <option value="1">1</option>
         <option value="2">2</option>
