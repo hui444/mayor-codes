@@ -1,3 +1,12 @@
 h2 {
-    text-align: center;
+  text-align: center;
+}
+.add-button {
+  margin-left: 87%;
+}
+
+.divider {
+  width: 10px;
+  height: auto;
+  display: inline-block;
 }
