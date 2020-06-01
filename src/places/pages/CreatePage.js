@@ -1,26 +1,23 @@
 import React from "react";
 
 import "./CreatePage.css";
+import ModuleInputBoxes from "../components/ModuleInputBoxes";
 import PreferencesQ from "../components/PreferencesQ";
-import NavButton from "../../shared/components/NavButton";
-import NumSelector from "../components/NumSelector";
+import NavButton from "../../shared/components/Homepage/NavButton";
 
 const CreatePage = () => {
   return (
     <React.Fragment>
-      <form>
+      <form action="/">
         <div className="left">
-          <h2 className="module-header">Modules :</h2>
-          <div className="selector">
-            <NumSelector />
-          </div>
+          <ModuleInputBoxes />
         </div>
         <div className="right">
           <div className="top">
             <PreferencesQ />
           </div>
           <div className="bottom">
-            <NavButton type="submit">CREATE</NavButton>
+            <NavButton text="CREATE" />
           </div>
         </div>
       </form>
