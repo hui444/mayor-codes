@@ -6,6 +6,7 @@ const Form = () => {
   const FormClose = () => {
     document.getElementById("myForm").style.display = "none";
   };
+
   return (
     <div className="form-popup" id="myForm">
       <form>

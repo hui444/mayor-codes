@@ -3,7 +3,12 @@ import React from "react";
 import BookmarkTable from "../components/BookmarkTable";
 import "./BookmarkPage.css";
 import Form from "../components/Form";
-import ContentEditable from "../components/ContentEditable";
+import NavButton from "../../shared/components/NavButton";
+
+const ContentEditable = () => {
+  var x = document.getElementById("myBookmarks");
+  x.contentEditable = true;
+};
 
 const BookmarkPage = () => {
   const FormPopup = () => {
@@ -11,14 +16,16 @@ const BookmarkPage = () => {
   };
 
   return (
-    <React.Fragment className="bookmark-page">
-      <h2>Your Timetables</h2>
-      <BookmarkTable /> <br /> <Form />
-      <button className="add-button" onClick={FormPopup}>
-        ADD
-      </button>
-      <div className="divider" />
-      <button onClick={ContentEditable}>EDIT</button>
+    <React.Fragment>
+      <div className="bookmark-page">
+        <h2>Your Timetables</h2>
+        <BookmarkTable /> <br /> <Form />
+        <div className="add-edit-buttons">
+          <NavButton onClick={FormPopup}>ADD</NavButton>
+          <div className="divider" />
+          <NavButton onClick={ContentEditable}>EDIT</NavButton>
+        </div>
+      </div>
     </React.Fragment>
   );
 };
