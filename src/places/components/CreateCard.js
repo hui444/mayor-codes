@@ -14,7 +14,7 @@ const CreateCard = () => {
           <Link to="/create">
             <div className="create-flipcard__back">
               <p>
-                How to create: <br />
+                <b>How To Create:</b> <br /> <br />
                 Input your modules and click create! Use the information given
                 to you and finish your timetable at NUSMods.
               </p>

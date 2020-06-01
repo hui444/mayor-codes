@@ -9,8 +9,8 @@ import {
 import HomePage from "./places/pages/HomePage";
 import CreatePage from "./places/pages/CreatePage";
 import BookmarkPage from "./places/pages/BookmarkPage";
-import NUSPlannerHeader from "./shared/components/Homepage/NUSPlannerHeader";
-import NavButton from "./shared/components/Homepage/NavButton";
+import NUSPlannerHeader from "./shared/components/NUSPlannerHeader";
+import NavButton from "./shared/components/NavButton";
 
 const App = () => {
   return (
@@ -23,14 +23,14 @@ const App = () => {
           </Route>
           <Route path="/create" exact>
             <NUSPlannerHeader>
-              <NavButton link="/" text="HOME" />
+              <NavButton to="/">HOME</NavButton>
             </NUSPlannerHeader>
             <CreatePage />
             <style>{"body { background-color : #dae3f2; }"}</style>
           </Route>
           <Route path="/bookmark" exact>
             <NUSPlannerHeader>
-              <NavButton link="/" text="HOME" />
+              <NavButton to="/">HOME</NavButton>
             </NUSPlannerHeader>
             <BookmarkPage />
             <style>{"body { background-color : #e2f0da; }"}</style>

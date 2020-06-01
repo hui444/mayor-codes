@@ -8,45 +8,45 @@ const BookmarkTable = () => {
       <thead>
         <tr>
           <th>Timetable Name</th>
-          <th>Timetable Link</th>
+          <th>Description</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Timetable 1</td>
-          <td>
+          <td className="column1-table">
             <a
               href="https://www.google.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              NUSMods link 1
+              Timetable 1
             </a>
           </td>
+          <td className="column2-table">This link is for Google</td>
         </tr>
         <tr>
-          <td>Timetable 2</td>
-          <td>
+          <td className="column1-table">
             <a
               href="https://sg.yahoo.com/"
               target="blank"
               rel="noopener noreferrer"
             >
-              NUSMods link 2
+              Timetable 2
             </a>
           </td>
+          <td className="column2-table">This link is for Yahoo</td>
         </tr>
         <tr>
-          <td>Timetable 3</td>
-          <td>
+          <td className="column1-table">
             <a
               href="https://www.bing.com/"
               target="blank"
               rel="noopener noreferrer"
             >
-              NUSMods link 3
+              Timetable 3
             </a>
           </td>
+          <td className="column2-table">This link is for Bing</td>
         </tr>
       </tbody>
     </table>
