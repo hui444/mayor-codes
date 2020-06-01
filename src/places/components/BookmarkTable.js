@@ -4,49 +4,49 @@ import "./BookmarkTable.css";
 
 const BookmarkTable = () => {
   return (
-    <table className="table-design">
+    <table className="table-design" id="myBookmarks">
       <thead>
         <tr>
           <th>Timetable Name</th>
-          <th>Description</th>
+          <th>Timetable Link</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td className="column1-table">
+          <td>Timetable 1</td>
+          <td>
             <a
               href="https://www.google.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Timetable 1
+              NUSMods link 1
             </a>
           </td>
-          <td className="column2-table">This link is for Google</td>
         </tr>
         <tr>
-          <td className="column1-table">
+          <td>Timetable 2</td>
+          <td>
             <a
               href="https://sg.yahoo.com/"
               target="blank"
               rel="noopener noreferrer"
             >
-              Timetable 2
+              NUSMods link 2
             </a>
           </td>
-          <td className="column2-table">This link is for Yahoo</td>
         </tr>
         <tr>
-          <td className="column1-table">
+          <td>Timetable 3</td>
+          <td>
             <a
               href="https://www.bing.com/"
               target="blank"
               rel="noopener noreferrer"
             >
-              Timetable 3
+              NUSMods link 3
             </a>
           </td>
-          <td className="column2-table">This link is for Bing</td>
         </tr>
       </tbody>
     </table>
