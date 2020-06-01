@@ -1,26 +1,18 @@
-form {
-    display: flex;
-    flex-wrap: wrap;
+.left-create {
+  padding-left: 10rem;
+  flex: 50%;
+  max-width: 100%;
+  padding-top: 0.5rem;
 }
 
-.left {
-    padding-left: 10px;
-    flex: 50%;
-    max-width: 100%;
+.selector {
+  padding-left: 1rem;
 }
 
-.right {
-    flex: 50%;
-    max-width: 100%;
-    display: table-column;
-    flex-wrap: wrap;
-}
-
-.top {
-    flex: 50%;
-}
-
-.bottom {
-    flex: 50%;
-    padding: 20% 35%;
+.module-header,
+.preference-header {
+  text-align: left;
+  flex: 50%;
+  max-width: 100%;
+  font-size: 30px;
 }
