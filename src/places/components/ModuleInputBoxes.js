@@ -34,7 +34,7 @@ const ModuleInputBoxes = (props) => {
     inputs: {
       mod1: {
         value: "",
-        isValid: false,
+        isValid: true,
       },
     },
     isValid: false,
