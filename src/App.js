@@ -7,10 +7,14 @@ import {
 } from "react-router-dom";
 
 import HomePage from "./places/pages/HomePage";
-import CreatePage from "./places/pages/CreatePage";
+import CreatePageFiveMods from "./places/pages/CreatePageFiveMods";
 import BookmarkPage from "./places/pages/BookmarkPage";
 import NUSPlannerHeader from "./shared/components/NUSPlannerHeader";
 import NavButton from "./shared/components/NavButton";
+import CreatePageSixMods from "./places/pages/CreatePageSixMods";
+import CreatePageSevenMods from "./places/pages/CreatePageSevenMods";
+import CreatePageEightMods from "./places/pages/CreatePageEightMods";
+import TimetableInfoPage from "./places/pages/TimetableInfoPage";
 
 const App = () => {
   return (
@@ -21,13 +25,47 @@ const App = () => {
             <NUSPlannerHeader />
             <HomePage />
           </Route>
-          <Route path="/create" exact>
+
+          <Route path="/create/modules" exact>
             <NUSPlannerHeader>
               <NavButton to="/">HOME</NavButton>
             </NUSPlannerHeader>
-            <CreatePage />
+            <CreatePageFiveMods />
             <style>{"body { background-color : #dae3f2; }"}</style>
           </Route>
+
+          <Route path="/create/sixmodules" exact>
+            <NUSPlannerHeader>
+              <NavButton to="/">HOME</NavButton>
+            </NUSPlannerHeader>
+            <CreatePageSixMods />
+            <style>{"body { background-color : #dae3f2; }"}</style>
+          </Route>
+
+          <Route path="/create/sevenmodules" exact>
+            <NUSPlannerHeader>
+              <NavButton to="/">HOME</NavButton>
+            </NUSPlannerHeader>
+            <CreatePageSevenMods />
+            <style>{"body { background-color : #dae3f2; }"}</style>
+          </Route>
+
+          <Route path="/create/eightmodules" exact>
+            <NUSPlannerHeader>
+              <NavButton to="/">HOME</NavButton>
+            </NUSPlannerHeader>
+            <CreatePageEightMods />
+            <style>{"body { background-color : #dae3f2; }"}</style>
+          </Route>
+
+          <Route path="/create/timetableInformation/:setModulesId">
+            <NUSPlannerHeader>
+              <NavButton alertHome>HOME</NavButton>
+            </NUSPlannerHeader>
+            <TimetableInfoPage />
+            <style>{"body { background-color : #dae3f2; }"}</style>
+          </Route>
+
           <Route path="/bookmark" exact>
             <NUSPlannerHeader>
               <NavButton to="/">HOME</NavButton>
