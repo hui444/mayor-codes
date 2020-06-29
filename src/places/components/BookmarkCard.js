@@ -14,7 +14,7 @@ const BookmarkCard = () => {
           <Link to="/bookmark">
             <div className="bookmark-flipcard__back">
               <p>
-                How to bookmark: <br />
+                <b>How To Bookmark:</b> <br /> <br />
                 Click on the "Share/Sync" button on NUSMods website. Copy and
                 paste the link onto your bookmark page.
               </p>

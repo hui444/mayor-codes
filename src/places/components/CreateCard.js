@@ -11,10 +11,10 @@ const CreateCard = () => {
           <div className="create-flipcard__front">
             <h1 className="create-flipcard__front__title">CREATE</h1>
           </div>
-          <Link to="/create">
+          <Link to="/create/modules">
             <div className="create-flipcard__back">
               <p>
-                How to create: <br />
+                <b>How To Create:</b> <br /> <br />
                 Input your modules and click create! Use the information given
                 to you and finish your timetable at NUSMods.
               </p>

@@ -1,16 +1,23 @@
-.module-header {
-  padding-left: 2rem;
-  text-align: left;
+/* .input-container input {
+  margin-left: 1%;
 }
 
-.input-container input {
-  margin-left: 15%;
+.createButton {
+  padding-top: 60%;
+  padding-left: 50%;
 }
 
-.input-module {
-  height: 2.5rem;
-  width: 11rem;
-  font-size: 13px;
-  margin-bottom: 1rem;
-  padding-left: 10px;
+.moduleInput-seperator {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.module-side {
+  flex: 50%;
+  max-width: 100%;
+}
+
+.preference-side {
+  flex: 50%;
+  max-width: 100%;
+} */
